@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
+.sobre{
+    width: 100%;
+    background: gray;
+}
+
+.sobre-contenedor{
+    width: 100%;
+    background: gray;
+    text-align: left;
+    
+}
+
+.sobre-titulo{
+    font-size: 1.5em;
+   
+}
+
+
+
+.sobre-hobbies{
+    width: 100%;
+}

@@ -3,29 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="ccs/reset.css">
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="ccs/portada.css">
+    <link rel="stylesheet" href="ccs/sobre.css">
+    <link rel="stylesheet" href="ccs/indicador-scroll.css">
     <title>Portafolio</title>
 </head>
 <body>
     <header class="portada" id="particles-js">
+        <!--BARRA DE MENU-->
         <nav class="portada-cabecera">
-            <img src="img/letra.png" alt="logo de letra" class="portada-logo">
+            <span class="portada-logo">&#280;</span>
+            <!--<img src="img/e.png" alt="logo de letra" class="portada-logo">-->
             <ul class="portada-menu">
-                <li class="portada-items"><a href="#" class="portada-link">Sobre Mi</a></li>
+                <li class="portada-items"><a href="#" class="portada-link">Sobre mi</a></li>
                 <li class="portada-items"><a href="#" class="portada-link">Habilidades</a></li>
+                <li class="portada-items"><a href="#" class="portada-link">Formacion</a></li>
                 <li class="portada-items"><a href="#" class="portada-link">Proyectos</a></li>
             </ul>
         </nav>
+        <!--TITULO DE NOMBRE-->
         <div class="portada-presentacion">
-        <h1 class="portada-titulos">hola</h1>
-        <h2 class="portada-titulos">Me Llamo Edmi</h2>
-        <h3 class="portada-titulos">Soy Desarrollador web</h3>  
+        <h1 class="portada-titulos">Soy Edmi</h1>
+        <h2 class="portada-titulos">Construyo</h2>
+        <h3 class="portada-titulos">Paginas Web</h3>  
         </div>
-       
-            
+        <!--ICONOS DE REDES-->
+        <div class="portada-redes">
+            <ul class="portada-redes-lista">
+                <li class="portada-redes-items"><a href="#"><img src="img/gitHub.png" alt="icono git hub" class="icono-red">Git Hub&#129133;</a></li>
+                <li class="portada-redes-items"><a href="#"><img src="img/linkedin.svg" alt="icono linkein" class="icono-red">linkedIn&#129133;</a></li>
+                <li class="portada-redes-items"><a href="#"><img src="img/documento.svg" alt="icono hoja" class="icono-red"></a>Curriculo&#129133;</li>
+            </ul>
+        </div>         
     </header>
+    <!--SECCION SOBRE MI-->
+    <seccion class="sobre">
+        <div class="sobre-contenedor">
+            <h1 class="sobre-titulo">Sobre Mi</h1>
+            <p class="sobre-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                        Esse optio rerum voluptate saepe? Inventore fugit ullam explicabo 
+                                        eligendi eos quo consectetur earum labore ipsa perferendis. Minima, 
+                                        ipsam quos? Voluptatem, Lorem ipsum, dolor sit amet consectetur adipisicing elit.<br> 
+                                        Quam, expedita distinctio rerum consectetur optio dolorem? Enim perspiciatis 
+                                        reiciendis at rerum provident, molestiae architecto cupiditate autem maxime, 
+                                        error iusto recusandaeofficia?
+            </p>      
+        </div> 
+        <div class="sobre-hobbies">
+            <h1 class="sobre-titulo">Hobbies</h1>
+            <ul class="sobre-hobbies-lista">
+                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Escuchar Musica</li>
+                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Ver series</li>
+                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Jugar Futbol</li>
+                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Jugar Video juegos</li>
+                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Cocinar</li>
+            </ul>
+        </div>
+        
+    </seccion>
    
     <script src="js/particulas/particles.js"></script>
     <script src="js/particulas/app.js"></script>
