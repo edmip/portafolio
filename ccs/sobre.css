@@ -1,23 +1,54 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
-.sobre{
+
+.sobre, .skills{
+    position: relative;
     width: 100%;
-    background: gray;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background: black
 }
 
-.sobre-contenedor{
+.sobre-contenedor, .hobbies-contenedor, .skills-contenedor, .instruccion-contenedor{
     width: 100%;
-    background: gray;
-    text-align: left;
-    
+    text-align: justify;
+    padding-top: 1.2rem;
 }
 
-.sobre-titulo{
+.titulo{
     font-size: 1.5em;
-   
+    font-weight: bold;
+    color: #ff0000;
+    padding: 0 0 1rem 1rem;
+    text-shadow: 2px 2px 7px grey;
 }
 
 
+.sobre-descripcion{
+    padding: 0 2rem 0 1rem;
+    font-size: large;
+    color: #ff0000;
+    font-family: sans-serif;
+}
 
-.sobre-hobbies{
-    width: 100%;
+.hobbies-lista{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-around;
+}
+
+.hobbies-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #979798;
+    font-size: 1.5em;
+    border: 2px solid #ff0000;
+    border-radius: 9px;
+    margin: 3px 15px;
+    padding: 0 2rem;
+}
+.hobbies-iconos{
+    width: 80px;
 }

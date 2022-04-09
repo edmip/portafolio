@@ -15,9 +15,9 @@
     position: absolute;
     padding: .5rem 0;
     color: #950101;
-    background: -webkit-gradient(linear, left top, left bottom, from(rgba(61,0,0,.75)), to(rgba(0,0,0,.25)));
+    background: -webkit-gradient(linear, left top, left bottom, from(rgba(41,0,0,.75)), to(rgba(0,0,0,.25)));
     /*Mozilla */
-     background: -moz-linear-gradient(top, rgba(0,0,0,1), rgba(0,0,0,.25));
+     background: -moz-linear-gradient(top, rgba(41,0,0,1), rgba(0,0,0,.25));
     z-index: 99;
 }
 

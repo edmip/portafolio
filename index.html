@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="ccs/portada.css">
     <link rel="stylesheet" href="ccs/sobre.css">
     <link rel="stylesheet" href="ccs/indicador-scroll.css">
+    <link rel="stylesheet" href="ccs/skills.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -44,7 +45,7 @@
     <!--SECCION SOBRE MI-->
     <seccion class="sobre">
         <div class="sobre-contenedor">
-            <h1 class="sobre-titulo">Sobre Mi</h1>
+            <h1 class="sobre-titulo titulo">Sobre Mi</h1>
             <p class="sobre-descripcion">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                                         Esse optio rerum voluptate saepe? Inventore fugit ullam explicabo 
                                         eligendi eos quo consectetur earum labore ipsa perferendis. Minima, 
@@ -54,18 +55,58 @@
                                         error iusto recusandaeofficia?
             </p>      
         </div> 
-        <div class="sobre-hobbies">
-            <h1 class="sobre-titulo">Hobbies</h1>
-            <ul class="sobre-hobbies-lista">
-                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Escuchar Musica</li>
-                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Ver series</li>
-                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Jugar Futbol</li>
-                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Jugar Video juegos</li>
-                <li class="sobre-hobbies-items"><img src="" alt="icono de hobbie">Cocinar</li>
+        <div class="hobbies-contenedor">
+            <h1 class="hobbies-titulo titulo">Hobbies</h1>
+            <ul class="hobbies-lista">
+                <li class="hobbies-items"><img src="img/escuchar.png" alt="icono de hobbie" class="hobbies-iconos"><span>Escuchar Musica</span> </li>
+                <li class="hobbies-items"><img src="img/ver.png" alt="icono de hobbie" class="hobbies-iconos">Ver series</li>
+                <li class="hobbies-items"><img src="img/jugador.png" alt="icono de hobbie" class="hobbies-iconos">Jugar Futbol</li>
+                <li class="hobbies-items"><img src="img/jugar.png" alt="icono de hobbie" class="hobbies-iconos">Jugar Video juegos</li>
+                <li class="hobbies-items"><img src="img/cocinar.png" alt="icono de hobbie" class="hobbies-iconos">Cocinar</li>
             </ul>
         </div>
-        
     </seccion>
+    <!--SECCION SOBRE MI-->
+    <section class="skills">
+        <div class="skills-contenedor">
+            <h1 class="skills-titulo titulo">Skills</h1>
+            <ul class="skills-lista">
+                <li class="skills-items"><img src="img/html-5.png" alt="icono skill" class="skills-iconos"><h3>HTML 5</h3></li>
+                <li class="skills-items"><img src="img/css.png" alt="icono skill" class="skills-iconos"><h3>CSS 3</h3></li>
+                <li class="skills-items"><img src="img/java-script.png" alt="icono skill" class="skills-iconos"><h3>JAVA SCRIPT</h3></li>
+                <li class="skills-items"><img src="img/react.png" alt="icono skill" class="skills-iconos"><h3>REACT</h3></li>
+                <li class="skills-items"><img src="img/nodejs.png" alt="icono skill" class="skills-iconos"><h3>NODE JS</h3></li>
+            </ul>
+        </div>
+        <div class="instruccion-contenedor">
+            <h1 class="instruccion-titulo titulo">Instruccion</h1>
+            <div class="instruccion-lista">
+                <div class="instruccion-items">
+                    <img src="img/diploma.png" alt="icono instruccion" class="instruccion-iconos">
+                    <h5 class="instruccion-descripcion">Ingenieria en Informatica</h5>
+                    <span class="instruccion-fecha">Dic - 2014</span>
+                </div>
+                <div class="instruccion-items">
+                    <img src="img/certificado.png" alt="icono instruccion" class="instruccion-iconos">
+                    <h5 class="instruccion-descripcion">Ingles Intermedio</h5>
+                    <span class="instruccion-fecha">Dic - 2021</span>
+                </div>
+                <div class="instruccion-items">
+                    <img src="img/logo-alura.svg" alt="icono instruccion" class="instruccion-iconos">
+                    <h5 class="instruccion-descripcion">Curso Alura</h5>
+                    <span class="instruccion-fecha">En curso</span>
+                </div>
+            </div>
+            
+            <!--<ul class="instruccion-lista">
+                <li class="instruccion-items"><img src="img/diploma.png" alt="icono instruccion" class="instruccion-iconos"></li>
+                <li class="instruccion-items"><img src="img/certificado.png" alt="icono instruccion" class="instruccion-iconos"></li>
+                <li class="instruccion-items"><img src="img/logo-alura.svg" alt="icono instruccion" class="instruccion-iconos"></li>
+            </ul>-->
+        </div>
+
+    </section>
+
    
     <script src="js/particulas/particles.js"></script>
     <script src="js/particulas/app.js"></script>
