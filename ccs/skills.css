@@ -19,6 +19,10 @@
     max-width: 80px;
 }
 
+.skills-iconos:hover{
+    transform: scale(1.7);
+}
+
 .instruccion-items{
     display: flex;
     flex-direction: column;

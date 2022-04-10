@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
-.sobre, .skills{
+.sobre, .skills, .experiencia{
     position: relative;
     width: 100%;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background: black
+    background: black;
 }
 
 .sobre-contenedor, .hobbies-contenedor, .skills-contenedor, .instruccion-contenedor{
@@ -27,7 +27,7 @@
 .sobre-descripcion{
     padding: 0 2rem 0 1rem;
     font-size: large;
-    color: #ff0000;
+    color: #979798;
     font-family: sans-serif;
 }
 
@@ -52,3 +52,5 @@
 .hobbies-iconos{
     width: 80px;
 }
+
+
