@@ -7,13 +7,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="ccs/reset.css">
-    <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="ccs/portada.css">
     <link rel="stylesheet" href="ccs/sobre.css">
     <link rel="stylesheet" href="ccs/indicador-scroll.css">
     <link rel="stylesheet" href="ccs/skills.css">
     <link rel="stylesheet" href="ccs/scroll.css">
     <link rel="stylesheet" href="ccs/experiencia.css">
+    <link rel="stylesheet" href="ccs/responsive.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -87,7 +87,7 @@
             <div class="instruccion-lista">
                 <div class="instruccion-items">
                     <img src="img/diploma.png" alt="icono instruccion" class="instruccion-iconos">
-                    <h5 class="instruccion-descripcion">Ingenieria en Informatica</h5>
+                    <p class="instruccion-descripcion">Ingenieria en Informatica</p>
                     <span class="instruccion-fecha">Dic - 2014</span>
                 </div>
                 <div class="instruccion-items">
@@ -109,6 +109,42 @@
         <div class="experiencia-contenedor">
             <h1 class="experiencia-titulo titulo">Mi Experiencia</h1>
             
+            <div id="slider">
+                <div class="slides">
+                
+                    <!-- First slide -->
+                    <div class="slider">
+                        <div class="images">
+                            <img src="img/Capture11.jpg" alt="imagen juego encriptador" class="imagen">
+                        </div>
+                            <div class="content-txt">
+                                <h1> ENCRIPTADOR </h1>
+                                <h2> Alura Challenge </h2>
+                                <a href="https://github.com/edmip/challenge_alura_1" class="experiencia-boton" target="_blank">Repositorio</a>
+                                <a href="https://edmip.github.io/challenge_alura_1/" class="experiencia-boton" target="_blank">Ver Demo</a>
+                            </div>
+                       
+                        
+                        
+                    </div>
+                    
+                    <!-- Second slide -->
+                    <div class="slider">
+                        <div class="images">
+                            <img src="img/Capture22.jpg" alt="imagen juego ahorcado" class="imagen">
+                        </div>
+                        <div class="content-txt">
+                            <h1> Ahorcado </h1>
+                            <h2> Alura Challenge </h2>
+                            <a href="https://github.com/edmip/challenge-alura-2-AHORCADO" class="experiencia-boton" target="_blank">Repositorio</a>
+                            <a href="https://edmip.github.io/challenge-alura-2-AHORCADO/" class="experiencia-boton" target="_blank">Ver Demo</a>
+                        </div>
+                        
+                        
+                    </div>
+
+                </div>
+            </div>
                 
             
         </div>
@@ -117,6 +153,7 @@
    
     <script src="js/particulas/particles.js"></script>
     <script src="js/particulas/app.js"></script>
+    <script src="js/animaciones.js"></script>
     
 </body>
 </html>

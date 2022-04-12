@@ -7,26 +7,27 @@
     display: flex;
     flex-direction: column;
     background: black;
+    justify-content: space-evenly;
 }
 
 .sobre-contenedor, .hobbies-contenedor, .skills-contenedor, .instruccion-contenedor{
     width: 100%;
     text-align: justify;
-    padding-top: 1.2rem;
 }
 
 .titulo{
-    font-size: 1.5em;
+    font-size: 2.5vmax;
     font-weight: bold;
     color: #ff0000;
     padding: 0 0 1rem 1rem;
     text-shadow: 2px 2px 7px grey;
+    font-size: calc(2vh + 1.1vw)
 }
 
 
 .sobre-descripcion{
     padding: 0 2rem 0 1rem;
-    font-size: large;
+    font-size: 1.5vmax;
     color: #979798;
     font-family: sans-serif;
 }
@@ -48,9 +49,25 @@
     border-radius: 9px;
     margin: 3px 15px;
     padding: 0 2rem;
+    opacity: 0;
+    transition: all 1.3s;
 }
 .hobbies-iconos{
-    width: 80px;
+    width: 15vw;
+    max-width: 70px;
 }
 
+/*EFECTO*/
 
+.mostrar-arriba{
+    animation: mostrarArriba 1s;
+}
+
+@keyframes mostrarArriba{
+    0%{
+        transform: translateX(-100px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}

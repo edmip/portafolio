@@ -2,17 +2,19 @@
 .skills-lista, .instruccion-lista{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 .skills-items{
-       color: #979798;
-       font-size: 1em;
-       border: 2px solid #ff0000;
-       border-radius: 9px;
-       margin: 5px 10px;
-       padding: 5px 2rem;
-       text-align: center;
-       box-shadow: 2px 1px 8px 0px darkgrey;
+    color: #979798;
+    font-size: 1em;
+    border: 2px solid #ff0000;
+    border-radius: 9px;
+    margin: 5px 10px;
+    padding: 10px 0;
+    text-align: center;
+    box-shadow: 2px 1px 8px 0px darkgrey;
+    width: 34vw;
+    max-width: 175px;
 }
 
 .skills-iconos{
@@ -28,13 +30,25 @@
     flex-direction: column;
     color: #979798;
     border-radius: 9px;
-    margin: 5px 10px;
+    margin: 5px 00px;
+    align-items: center;
+    width: 30%;
+   text-align: center;
 }
 
 .instruccion-iconos{
-    max-width: 80px;
     border: 2px solid #ff0000;
     border-radius: 9px;
-    padding: 1rem 2rem;
+    padding: 1rem;
     box-shadow: -2px -2px 8px 0px darkgrey;
+    max-width: 120px;
+}
+
+.instruccion-iconos, .skills-iconos{
+    width: 15vw;
+}
+
+.instruccion-descripcion, .instruccion-fecha{
+    font-size: .75em;
+    line-height: 1.5;
 }

@@ -32,18 +32,20 @@
     flex-wrap: wrap;
     justify-content: space-around;
 }
+
+.portada-logo, .portada-menu{
+  flex: auto;
+}
 .portada-items{
-    padding-bottom: 3px;
-    margin-right: 1rem;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-weight: bold;
+  margin-bottom: 6px;
+  margin-top: 6px;
+  font-weight: bold;
 }
 
 .portada-presentacion{
     position: absolute;
     text-align: left;
-    top: 34%;
+    top: 30%;
     margin-left: 1rem;
     font-size: 3.75rem;
     background: none;
@@ -55,6 +57,7 @@
     font-weight: bolder;
     color: #ae0606;
     width: auto;
+    font-size: 16vw;
 }
 
 .portada-redes{
@@ -104,16 +107,11 @@
     transition: all .35s ease;
   }
   
-  .portada-items{
-    display: inline-block;
-    list-style: outside none none;
-  }
-  
   .portada-link{
-    padding: .5em .8em;
+    padding: .5em .4em;
     position: relative;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 1.2em;
   }
   
   .portada-link::before,
@@ -153,3 +151,5 @@
   .portada-link:hover {
     color: #b9b4b4;
   }
+
+  

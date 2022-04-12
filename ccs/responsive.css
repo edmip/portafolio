@@ -1,0 +1,22 @@
+/*responsiv*/
+
+@media (min-width: 600px) {
+    .portada-titulos{
+      font-size: 97px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .imagen{
+      max-width: 50%;
+      height: 40%;
+
+    }
+
+    .content-txt{
+      float: right;
+      margin-left: 0;
+      top: 50px;
+    }
+
+  }
