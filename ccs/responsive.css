@@ -1,5 +1,19 @@
 /*responsiv*/
 
+@media (min-height : 0px) {
+  .portada-titulos{
+    font-size: 11vw;
+  }
+
+  .icono-red {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .portada-redes {
+    top: 75%;
+}
+}
+
 @media (min-width: 600px) {
     .portada-titulos{
       font-size: 90px;
