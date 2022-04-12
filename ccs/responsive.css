@@ -10,7 +10,11 @@
     }
 
     .portada-redes {
-    top: 78%;
+    top: 75%;
+    }
+
+    .portada-redes-items{
+      font-size: .8em;
     }
 
     .icono-red {
@@ -24,9 +28,8 @@
     }
 
     #demo-principal{
-      top: 25px;
-      width: 30px;
-      height: 30px;
+      bottom: 20%;
+      
     }
   }
 
