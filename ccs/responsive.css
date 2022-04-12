@@ -2,11 +2,11 @@
 
 @media (max-width: 600px) {
     .portada-titulos{
-      font-size: 12vw;
+      font-size: 10vw;
     }
 
     .portada-link{
-      font-size: 1.5em;
+      font-size: 1em;
     }
 
     .portada-redes {
@@ -21,6 +21,12 @@
     .skills-items{
       max-height: 65px;
       font-size: .7em;
+    }
+
+    #demo-principal{
+      top: 25px;
+      width: 30px;
+      height: 30px;
     }
   }
 
