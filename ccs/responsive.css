@@ -1,6 +1,6 @@
 /*responsiv*/
 
-@media (min-height : 0px) {
+@media (min-width : 0px) {
   .portada-titulos{
     font-size: 11vw;
   }
