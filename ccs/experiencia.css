@@ -22,9 +22,9 @@
     width:400%;
     height:100%;
     position:relative;
-    -webkit-animation:slide 15s infinite;
-    -moz-animation:slide 15s infinite;
-    animation:slide 15s infinite;
+    -webkit-animation:slide 12s infinite;
+    -moz-animation:slide 12s infinite;
+    animation:slide 12s ease-in infinite;
   }
   .slider{
     width:25%;
@@ -68,10 +68,10 @@
     height: 150px;
     float: left;
     position: relative;
-    
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
+    margin-top: 20px;
     /* line-height: 2;
    /* -webkit-animation:content-s 7.5s infinite;
     -moz-animation:content-s 7.5s infinite;
@@ -118,21 +118,24 @@
   
   /* Animacion */
   @-webkit-keyframes slide{
-    0%,100%{
+    0%{
       margin-left:0%;
     }
-    21%{
-      margin-left:0%;
+
+    40%{
+      margin-left: 0%;
     }
-    25%{
+
+    60%{
       margin-left:-100%;
     }
-    46%{
+    95%{
       margin-left:-100%;
     }
+    
    
   }
-  @-moz-keyframes slide{
+ /* @-moz-keyframes slide{
     0%,100%{
       margin-left:0%;
     }
@@ -159,7 +162,7 @@
     46%{
       margin-left:-100%;
     }
-  }
+  }*/
   
   /*@-webkit-keyframes content-s{
     0%{left:-420px;}

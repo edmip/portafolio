@@ -2,21 +2,53 @@
 
 @media (min-width: 600px) {
     .portada-titulos{
-      font-size: 97px;
+      font-size: 90px;
+    }
+
+    .portada-link{
+      font-size: 1.5em;
     }
   }
 
   @media (min-width: 600px) {
     .imagen{
-      max-width: 50%;
-      height: 40%;
+      max-width: 90%;
+      height: calc(60% + 6vw);
+      display: inline;
+    }
 
+    .images{
+      width: 55%;
     }
 
     .content-txt{
-      float: right;
-      margin-left: 0;
-      top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 38%;
     }
 
+    .sobre-contenedor, .hobbies-contenedor, .skills-contenedor, .instruccion-contenedor{
+      margin-top: 3%;
   }
+
+  .hobbies-items{
+    font-size: 1.5rem;
+    padding: 0 3rem;
+  }
+
+  .skills-lista, .instruccion-lista {
+    margin-top: 1rem;
+  }
+
+  .slider{
+    width: 25%;
+    height: 100%;
+    float: left;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+  }
+
+}

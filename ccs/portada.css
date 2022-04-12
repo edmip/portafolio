@@ -47,7 +47,6 @@
     text-align: left;
     top: 30%;
     margin-left: 1rem;
-    font-size: 3.75rem;
     background: none;
     
 }
@@ -57,12 +56,12 @@
     font-weight: bolder;
     color: #ae0606;
     width: auto;
-    font-size: 16vw;
+    font-size: 14vw;
 }
 
 .portada-redes{
     position: absolute;
-    top: 85%;
+    top: 82%;
     width: 100%;
 }
 
