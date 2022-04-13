@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@100&display=swap');
 
-.sobre, .skills, .experiencia{
+.sobre, .skills, .experiencia, .contacto{
     position: relative;
     width: 100%;
     min-height: 100vh;
@@ -10,7 +10,7 @@
     justify-content: start;
 }
 
-.sobre-contenedor, .hobbies-contenedor, .skills-contenedor, .instruccion-contenedor{
+.sobre-contenedor, .hobbies-contenedor, .skills-contenedor, .instruccion-contenedor, .contacto-contenedor{
     width: 100%;
     text-align: justify;
     margin-top: 5%;

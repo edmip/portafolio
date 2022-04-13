@@ -1,0 +1,27 @@
+.contacto-contenedor{
+    display: flex;
+    flex-direction: column;
+    
+}
+.contacto-contenedor-img{
+    display: none;
+}
+
+.contacto-contenedor-form{
+    color: #ffffff;
+    padding: 10px 15px 0 15px;
+    line-height: 2;
+    text-align: left;
+    max-width: 630px;
+}
+.contacto-form{
+    padding-top: 15px;
+}
+
+.item-form{
+    display: block;
+    width: 91%;
+    background: none;
+    color: #c4c4c4;
+}
+

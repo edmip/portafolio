@@ -74,4 +74,8 @@
     justify-content: start;
   }
 
+  .contacto-contenedor-img{
+    display: flex;
+}
+
 }
