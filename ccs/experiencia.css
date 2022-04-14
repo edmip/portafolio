@@ -33,6 +33,7 @@
     position:relative;
     z-index:1;
     overflow:hidden;
+    margin-top: 15px;
   }
   .slide img{
     width:100%;

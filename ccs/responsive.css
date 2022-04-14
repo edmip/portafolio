@@ -75,8 +75,19 @@
     justify-content: start;
   }
 
+  
+
+}
+
+@media (max-width: 900px){
+
+  
   .contacto-contenedor-img{
-    display: flex;
+    display: none;
+  }
+  .contacto-contenedor-form {
+    min-width: 80%;
+    margin: auto;
 }
 
 }
