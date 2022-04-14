@@ -42,13 +42,46 @@
     width: 100%;
     position: absolute;
     bottom: 0px;
-    color: gray;
+    color: #808080;
     text-align: center;
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    justify-content: start;
+    line-height: 3;
 }
 
 .Copiright{
     margin: 0 auto;
 }
 
+.footer-contenedor-redes{
+    width: 100%;
+}
+
+.footer-redes-lista{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-red{
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    margin-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    transition: .3s;
+}
+
+.portada-redes-items{
+   text-align: center;
+   font-style: italic;
+   color: #b40000;
+   font-family: sans-serif;
+   transition: .3s;
+}
+
+#demo-final{
+    bottom: 17%;
+    left: 80%;
+}

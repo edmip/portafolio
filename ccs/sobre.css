@@ -22,7 +22,8 @@
     color: #ff0000;
     padding: 0 0 1rem 1rem;
     text-shadow: 2px 2px 7px grey;
-    font-size: calc(2vh + 1.1vw)
+    font-size: calc(2vh + 1.1vw);
+    letter-spacing: 2px;
 }
 
 

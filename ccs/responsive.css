@@ -2,7 +2,7 @@
 
 @media (max-width: 600px) {
     .portada-titulos{
-      font-size: 10vw;
+      font-size: 11vw;
     }
 
     .portada-link{
@@ -27,10 +27,18 @@
       font-size: .7em;
     }
 
-    #demo-principal{
+    .demo{
       bottom: 20%;
-      
     }
+
+    .demo-secundario{
+      bottom: 14%;
+    }
+    #demo-final{
+      bottom: 17%;
+      left: 80%;
+  }
+
     
   }
 

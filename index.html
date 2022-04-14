@@ -21,13 +21,14 @@
     <header class="portada" id="particles-js">
         <!--BARRA DE MENU-->
         <nav class="portada-cabecera">
-            <span class="portada-logo">&#280;</span>
+            <span class="portada-logo" id="logo">&#280;</span>
             <!--<img src="img/e.png" alt="logo de letra" class="portada-logo">-->
             <ul class="portada-menu">
-                <li class="portada-items"><a href="#" class="portada-link">Sobre mi</a></li>
-                <li class="portada-items"><a href="#" class="portada-link">Habilidades</a></li>
-                <li class="portada-items"><a href="#" class="portada-link">Formacion</a></li>
-                <li class="portada-items"><a href="#" class="portada-link">Proyectos</a></li>
+                <li class="portada-items"><a href="#section02" class="portada-link">Sobre mi</a></li>
+                <li class="portada-items"><a href="#section03" class="portada-link">Habilidades</a></li>
+                <li class="portada-items"><a href="#section03" class="portada-link">Formacion</a></li>
+                <li class="portada-items"><a href="#section04" class="portada-link">Proyectos</a></li>
+                <li class="portada-items"><a href="#section05" class="portada-link">Contacto</a></li>
             </ul>
         </nav>
         <!--TITULO DE NOMBRE-->
@@ -39,12 +40,12 @@
         <!--ICONOS DE REDES-->
         <div class="portada-redes">
             <ul class="portada-redes-lista">
-                <li class="portada-redes-items"><a href="#"><img src="img/gitHub.png" alt="icono git hub" class="icono-red">Git Hub 🡭</a></li>
+                <li class="portada-redes-items"><a href="#"><img src="img/gitHub.png" alt="icono git hub" class="footer-red">Git Hub 🡭</a></li>
                 <li class="portada-redes-items"><a href="#"><img src="img/linkedin.svg" alt="icono linkein" class="icono-red">linkedIn 🡭</a></li>
                 <li class="portada-redes-items"><a href="#"><img src="img/documento.svg" alt="icono hoja" class="icono-red"></a>Curriculo 🡭</li>
             </ul>
         </div>
-        <a href="#section02" class="demo" id="demo-principal"><span></span></a>         
+        <a href="#section02" class="demo"><span></span></a>         
     </header>
     <!--SECCION SOBRE MI-->
     <seccion class="sobre" id="section02">
@@ -69,7 +70,8 @@
                 <li class="hobbies-items"><img src="img/cocinar.png" alt="icono de hobbie" class="hobbies-iconos">Cocinar</li>
             </ul>
         </div>
-        <a href="#section03" class="demo" id="demo-principal"><span></span></a> 
+        <a href="#section03" class="demo demo-principal"><span></span></a>
+        <a href="#logo" class="demo-secundario"><span></span></a>
     </seccion>
     <!--SECCION SKILLS-->
     <section class="skills" id="section03">
@@ -103,7 +105,8 @@
                 </div>
             </div>
         </div>
-        <a href="#section04" class="demo" id="demo-principal"><span></span></a>  
+        <a href="#section04" class="demo demo-principal"><span></span></a>
+        <a href="#section02" class="demo-secundario"><span></span></a>  
     </section>
     <!--SECCION experiencia-->
     <section class="experiencia" id="section04">
@@ -139,7 +142,8 @@
                 </div>
             </div>   
         </div>
-        <a href="#section05" class="demo" id="demo-principal"><span></span></a>  
+        <a href="#section05" class="demo demo-principal"><span></span></a>
+        <a href="#section03" class="demo-secundario"><span></span></a>   
     </section>
     <!--SECCION CONTACTO-->
     <seccion class="contacto">
@@ -169,8 +173,18 @@
                 </div>
         </div>
         <footer class="footer">
-            <p class="Copiright">© Copiright Barberia Alura - 2022</p>
+            <p class="Copiright">© Desarrollado por Edmi Perez - 2022</p>
+            <div class="footer-contenedor-redes">
+                <ul class="footer-redes-lista">
+                    <li class="footer-redes-items"><a href="#"><img src="img/github icon.png" alt="icono git hub" class="footer-red"></a></li>
+                    <li class="footer-redes-items"><a href="#"><img src="img/linkedin icon.png" alt="icono linkein" class="footer-red"></a></li>
+                    <li class="footer-redes-items"><a href="#"><img src="img/facebook icon.svg" alt="icono hoja" class="footer-red"></a></li>
+                    <li class="footer-redes-items"><a href="#"><img src="img/instagram icon.svg" alt="icono hoja" class="footer-red"></a></li>
+                </ul>
+            </div>
         </footer>
+        <a href="#section04" class="demo-secundario" id="demo-final"><span></span></a>
+       
     </seccion>
    
     <script src="js/particulas/particles.js"></script>
